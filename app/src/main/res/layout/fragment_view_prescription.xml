@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.ViewPrescriptionFM">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="20dp"
+        >
+
+        <!-- TODO: Update blank fragment layout -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Doctor Details"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:layout_margin="10dp"
+            android:background="@android:color/holo_green_dark"
+            />
+        <TextView
+            android:id="@+id/VPD_DName_tv_Id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Doctor Name"
+            android:textSize="20sp"
+            android:layout_margin="5dp"
+            />
+
+        <TextView
+            android:id="@+id/VPD_DSpeciality_tv_Id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Doctor Speciality"
+            android:textSize="20sp"
+            android:layout_margin="5dp"
+            />
+
+        <TextView
+            android:id="@+id/VPD_DNumber_tv_Id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Number"
+            android:textSize="20sp"
+            android:layout_margin="5dp"
+            />
+
+        <TextView
+            android:id="@+id/VPD_DChamber_tv_Id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chamber"
+            android:textSize="20sp"
+            android:layout_margin="5dp"
+            />
+
+        <TextView
+            android:id="@+id/VPD_DEmail_tv_Id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textSize="20sp"
+            android:layout_margin="5dp"
+            />
+
+        <TextView
+            android:id="@+id/VPD_DNote_tv_Id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Note"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Appointment Details"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:background="@android:color/holo_green_dark"
+            />
+
+        <TextView
+            android:id="@+id/VPD_NextApDate_tv_Id_"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Next Appointment Date"
+            android:textSize="20sp"
+            android:layout_margin="5dp"
+            />
+        <TextView
+            android:id="@+id/VPD_testNote_tv_Id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Test Note"
+            android:textSize="20sp"
+            android:layout_margin="5dp"
+            />
+        <TextView
+            android:id="@+id/VPD_testReportDate_tv_Id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Test Report Date"
+            android:textSize="20sp"
+            android:layout_margin="5dp"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Medicine Details"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:background="@android:color/holo_green_dark"
+            />
+
+        <TextView
+            android:id="@+id/VPD_medicineName_tv_Id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Medicine Name"
+            android:textSize="20sp"
+            android:layout_margin="5dp"
+            />
+        <TextView
+            android:id="@+id/VPD_medicineType_tv_Id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Type"
+            android:textSize="20sp"
+            android:layout_margin="5dp"
+            />
+        <TextView
+            android:id="@+id/VPD_medicineStrength_tv_Id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Strength"
+            android:textSize="20sp"
+            android:layout_margin="5dp"
+            />
+        <TextView
+            android:id="@+id/VPD_medicineStartDate_tv_Id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Start Date"
+            android:textSize="20sp"
+            android:layout_margin="5dp"
+            />
+        <TextView
+            android:id="@+id/VPD_totalDays_tv_Id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total Days"
+            android:textSize="20sp"
+            android:layout_margin="5dp"
+            />
+        <TextView
+            android:id="@+id/VPD_quantityPerDose_tv_Id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quantity Per Dose"
+            android:textSize="20sp"
+            android:layout_margin="5dp"
+            />
+
+        <TextView
+            android:id="@+id/VPD_intakePerDay_tv_Id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Intake Per Day"
+            android:textSize="20sp" />
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/VPD_time_rcv_Id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_green_dark"
+            android:layout_marginBottom="10dp">
+        </android.support.v7.widget.RecyclerView>
+
+    </LinearLayout>
+
+</ScrollView>

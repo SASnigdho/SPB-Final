@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    tools:context=".activitys.AccountInfoActivity">
+
+    <TextView
+        android:id="@+id/ai_name_tv_Id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        />
+
+    <TextView
+        android:id="@+id/ai_mobileNumber_tv_Id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mobile Number"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        />
+
+    <TextView
+        android:id="@+id/ai_age_tv_Id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Age"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        />
+
+    <TextView
+        android:id="@+id/ai_bloodGrou_tv_Id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Brood Group"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        />
+
+    <TextView
+        android:id="@+id/ai_gender_tv_Id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gender"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        />
+
+    <TextView
+        android:id="@+id/ai_email_tv_Id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        />
+
+    <Button
+        android:id="@+id/ai_update_btn_Id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:id="@+id/ai_changePassword_btn_Id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Change Password"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        />
+
+</LinearLayout>

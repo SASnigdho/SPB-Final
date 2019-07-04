@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    tools:context=".fragments.inventory.InventoryFM">
+
+    <Button
+        android:id="@+id/lowMedicineListButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Low Medicine List"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:layout_marginBottom="5dp"
+        />
+
+    <Button
+        android:id="@+id/if_purchase_btn_Id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Purchase"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        />
+
+    <Button
+        android:id="@+id/reportButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Report"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        />
+
+
+</LinearLayout>

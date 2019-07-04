@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.UpdatePrescriptionFM">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="10dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Doctor details"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:background="@android:color/holo_green_dark"
+            />
+
+        <EditText
+            android:id="@+id/up_dName_edt_Id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:textSize="18sp"
+            android:layout_margin="5dp"
+            />
+
+        <EditText
+            android:id="@+id/up_dSpeciality_edt_Id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Speciality"
+            android:textSize="18sp"
+            android:layout_margin="5dp"
+            />
+
+        <EditText
+            android:id="@+id/up_dNumber_edt_Id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Number"
+            android:textSize="18sp"
+            android:layout_margin="5dp"
+            />
+
+        <EditText
+            android:id="@+id/up_dChamber_edt_Id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Chamber"
+            android:textSize="18sp"
+            android:layout_margin="5dp"
+            />
+
+        <EditText
+            android:id="@+id/up_dEmail_edt_Id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:textSize="18sp"
+            android:layout_margin="5dp"
+            />
+
+        <EditText
+            android:id="@+id/up_dNote_edt_Id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Note"
+            android:textSize="18sp"
+            android:layout_margin="5dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Appointment details"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:layout_marginBottom="10dp"
+            android:background="@android:color/holo_green_dark"
+            />
+
+        <Button
+            android:id="@+id/up_nextApDate_btn_Id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Next Appointment Date"
+            android:textSize="18sp"
+            android:textAllCaps="false"
+            android:layout_margin="5dp"
+            />
+
+        <EditText
+            android:id="@+id/up_testNote_edt_Id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Test Note"
+            android:textSize="18sp"
+            android:layout_margin="5dp"
+            />
+
+        <Button
+            android:id="@+id/up_testReportDate_btn_Id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Test Report Date"
+            android:textSize="18sp"
+            android:textAllCaps="false"
+            android:layout_margin="5dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Medicine details"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:layout_marginBottom="10dp"
+            android:background="@android:color/holo_green_dark"
+            />
+
+        <EditText
+            android:id="@+id/up_mName_edt_Id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Medicine Name"
+            android:textSize="18sp"
+            android:layout_margin="5dp"
+            />
+
+        <EditText
+            android:id="@+id/up_mType_edt_Id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Type"
+            android:textSize="18sp"
+            android:layout_margin="5dp"
+            />
+
+        <EditText
+            android:id="@+id/up_mStrength_edt_Id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Strength"
+            android:textSize="18sp"
+            android:layout_margin="5dp"
+            />
+
+        <Button
+            android:id="@+id/up_mStartDate_btn_Id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Start Date"
+            android:textSize="18sp"
+            android:layout_margin="5dp"
+            />
+
+        <EditText
+            android:id="@+id/up_totalDay_edt_Id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Total Days"
+            android:textSize="18sp"
+            android:layout_margin="5dp"
+            />
+
+        <EditText
+            android:id="@+id/up_quantityPerDose_edt_Id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Quantity Per Dose"
+            android:textSize="18sp"
+            android:layout_margin="5dp"
+            />
+
+        <EditText
+            android:id="@+id/up_intakePerDay_edt_Id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Intake Per Day"
+            android:textSize="18sp"
+            android:layout_margin="5dp"
+            />
+
+        <Button
+            android:id="@+id/up_schedule_btn_Id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Schedule"
+            android:textSize="18sp"
+            android:textAllCaps="false"
+            android:layout_marginBottom="10dp"
+            />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/up_schedule_rcv_Id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+        </android.support.v7.widget.RecyclerView>
+
+        <Button
+            android:id="@+id/up_update_btn_Id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "611755937212",
+    "firebase_url": "https://final-c46df.firebaseio.com",
+    "project_id": "final-c46df",
+    "storage_bucket": "final-c46df.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:611755937212:android:06b24ad6b7d91f12",
+        "android_client_info": {
+          "package_name": "ittouchbd.com.smartpillbox"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "611755937212-hrggbnnqk7ocmch499pobd7bc16qppj7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAM6iPDGSfHKraceO6Rw-7pifeA3OJIWx0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "611755937212-hrggbnnqk7ocmch499pobd7bc16qppj7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

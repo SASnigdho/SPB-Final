@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Smart Pill Box</string>
+    <string name="app_level">SPB</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Smart Medicine Box</string>
+    <string name="nav_header_subtitle">salman.cse.wub@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_log_out_text">Log Out</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="low_medicine_list_text">Low Medicine List</string>
+    <string name="action_settings_text">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="view_all_text">View All</string>
+    <string name="action_change_password_text">Change Password</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="action_ac_info_text">Account Info</string>
+    <string name="action_up_ac_info_text">Update A/C Info</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>

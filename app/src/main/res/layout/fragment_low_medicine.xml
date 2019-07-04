@@ -1,0 +1,24 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="ittouchbd.com.smartpillbox.fragments.LowMedicineFM">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/low_medicine_list_text"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:layout_margin="5dp"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/lowMedicineList_rcv_Id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>
